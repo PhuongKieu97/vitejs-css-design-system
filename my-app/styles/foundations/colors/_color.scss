@@ -1,0 +1,13 @@
+@use '../../vars' as *;
+
+:root {
+  --dc-green-500: #{$green-500};
+  --dc-yellow-200: #{$yellow-200};
+  --dc-blue-500: #{$blue-500};
+}
+
+.dark-mode {
+  --dc-green-500: red;
+  --dc-yellow-200: orange;
+  --dc-blue-500: pink;
+}

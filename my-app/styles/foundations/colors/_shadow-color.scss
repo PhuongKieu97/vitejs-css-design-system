@@ -1,0 +1,9 @@
+@use '../../vars' as *;
+
+:root {
+  --color-shadow-message: #{$green-500};
+}
+
+.dark-mode {
+  --color-shadow-message: black;
+}

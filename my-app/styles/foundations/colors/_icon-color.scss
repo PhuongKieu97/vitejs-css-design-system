@@ -1,0 +1,5 @@
+@use "../../vars" as *;
+
+:root {
+  --color-icon-success: #{$green-500};
+}

@@ -1,0 +1,14 @@
+@use "../../vars" as *;
+
+:root {
+  --x-message: #{$number-0};
+  --y-message: #{$number-2};
+  --blur-message: #{$number-12};
+  --spread-message: #{$number-0};
+}
+
+.shadow-message {
+  box-shadow: var(--x-message, 0px) var(--y-message, 2px)
+    var(--blur-message, 12px) var(--spread-message, 0px)
+    var(--color-shadow-message, rgba(37, 37, 39, 0.1));
+}

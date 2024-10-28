@@ -1,0 +1,7 @@
+@use "../../vars" as *;
+
+:root {
+  --color-bg-green-light-pressed: #{$green-500};
+  --color-bg-green-light: #{$green-25};
+  --color-bg-green-light-hover: #{$green-50};
+}
